@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="96" viewBox="0 0 160 96" role="img" aria-labelledby="title desc">
+  <title id="title">电池组 / Battery</title>
+  <desc id="desc">AP Physics C E&amp;M teaching symbol, independently redrawn. Transparent background. 长线端为正极；短线端为负极。</desc>
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 48 H68 M68 28 V68 M76 38 V58 M84 28 V68 M92 38 V58 M92 48 H152"/>
+  </g>
+</svg>

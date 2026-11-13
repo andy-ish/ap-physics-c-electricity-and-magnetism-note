@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="96" viewBox="0 0 160 96" role="img" aria-labelledby="title desc">
+  <title id="title">电阻器 / Resistor</title>
+  <desc id="desc">AP Physics C E&amp;M teaching symbol, independently redrawn. Transparent background. 采用官方示例的锯齿形画法。</desc>
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+  </g>
+</svg>
