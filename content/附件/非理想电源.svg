@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">非理想电源 / Non-ideal Source</title>
+  <desc id="desc">非理想电源的串联等效模型：虚线框内包含标注 emf 的理想电源和标注 internal resistance 的内阻。左端为正端，右端为负端；下方标注 terminal voltage 的大括号跨越两个外部端子，表示整个电源的端电压。大括号是标注线，不是导线。透明背景，元件沿用电子元件文件夹中的黑色细线与圆角样式。</desc>
+
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The enclosure groups the ideal source and its series resistance. -->
+    <rect id="source-enclosure" x="120" y="64" width="480" height="168" rx="8" stroke-dasharray="6 6"/>
+
+    <path id="wires" d="M77 160 H160 M304 160 H408 M552 160 H643"/>
+
+    <!-- Same geometry as 电子元件/battery.svg. -->
+    <g id="ideal-source" transform="translate(152 112)">
+      <path d="M8 48 H68 M68 28 V68 M76 38 V58 M84 28 V68 M92 38 V58 M92 48 H152"/>
+    </g>
+
+    <!-- Same geometry as 电子元件/resistor.svg. -->
+    <g id="internal-resistance" transform="translate(400 112)">
+      <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+    </g>
+
+    <g id="terminals">
+      <circle cx="72" cy="160" r="5"/>
+      <circle cx="648" cy="160" r="5"/>
+    </g>
+
+    <!-- Annotation only: the brace spans both external terminals. -->
+    <path id="terminal-voltage-brace" d="M72 266 C72 280 84 280 100 280 H332 C350 280 360 286 360 300 C360 286 370 280 388 280 H620 C636 280 648 280 648 266"/>
+  </g>
+
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">
+    <text x="232" y="112">emf</text>
+    <text x="480" y="112">internal resistance</text>
+    <text x="360" y="334">terminal voltage</text>
+    <text x="72" y="129">+</text>
+    <text x="648" y="129">−</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">两个电阻并联电路 / Two Resistors in Parallel</title>
+  <desc id="desc">透明背景的并联电路图。R1 与 Switch1 串联组成第一支路，R2 与 Switch2 串联组成第二支路，两支路并联。干路包含 Battery 和总开关 Switch0。三个开关均画为断开状态，闭合 Switch0 及相应支路开关后，该支路接通。元件沿用电子元件文件夹中的黑色细线、圆角端点与锯齿形电阻样式。</desc>
+
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Two branch rows share the left and right rails. -->
+    <path id="rails" d="M96 112 V416 M624 112 V416"/>
+    <path id="branch-1-wires" d="M96 112 H128 M272 112 H368 M512 112 H624"/>
+    <path id="branch-2-wires" d="M96 264 H128 M272 264 H368 M512 264 H624"/>
+    <path id="main-wires" d="M96 416 H128 M272 416 H368 M512 416 H624"/>
+
+    <!-- Same geometry as 电子元件/switch-open.svg. -->
+    <g id="switch-1" transform="translate(120 64)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+    <g id="switch-2" transform="translate(120 216)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+    <g id="switch-0" transform="translate(120 368)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+
+    <!-- Same geometry as 电子元件/resistor.svg. -->
+    <g id="resistor-1" transform="translate(360 64)">
+      <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+    </g>
+    <g id="resistor-2" transform="translate(360 216)">
+      <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+    </g>
+
+    <!-- Same geometry as 电子元件/battery.svg. Long plates are positive. -->
+    <g id="battery" transform="translate(360 368)">
+      <path d="M8 48 H68 M68 28 V68 M76 38 V58 M84 28 V68 M92 38 V58 M92 48 H152"/>
+    </g>
+
+    <g id="junctions" fill="#000000" stroke="none">
+      <circle cx="96" cy="264" r="3"/>
+      <circle cx="624" cy="264" r="3"/>
+    </g>
+  </g>
+
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">
+    <text x="200" y="65">Switch1</text>
+    <text x="440" y="65">R1</text>
+    <text x="200" y="217">Switch2</text>
+    <text x="440" y="217">R2</text>
+    <text x="200" y="466">Switch0</text>
+    <text x="440" y="466">Battery</text>
+  </g>
+</svg>
