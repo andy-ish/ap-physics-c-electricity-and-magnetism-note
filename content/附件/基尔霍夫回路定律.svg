@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="kvl-title kvl-desc">
+  <title id="kvl-title">基尔霍夫回路定律</title>
+  <desc id="kvl-desc">透明背景的单回路电路图。一个理想电源与两个电阻依次串联，组成闭合回路，无开关或旁路。电源位于下方，电压标为 V1，长线端在左，为正极，右端为负极。两个锯齿形电阻位于上方，电压分别标为 V2、V3，均以左端为正、右端为负。由基尔霍夫回路定律，V1 − V2 − V3 = 0。</desc>
+
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path id="wires" d="M96 280 V100 H160 M304 100 H416 M560 100 H624 V280 H432 M288 280 H96"/>
+
+    <g id="resistor-v2" transform="translate(152 52)">
+      <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+    </g>
+    <g id="resistor-v3" transform="translate(408 52)">
+      <path d="M8 48 H52 L56 38 L64 58 L72 38 L80 58 L88 38 L96 58 L104 38 L108 48 H152"/>
+    </g>
+    <g id="source-v1" transform="translate(280 232)">
+      <path d="M8 48 H68 M68 28 V68 M76 38 V58 M84 28 V68 M92 38 V58 M92 48 H152"/>
+    </g>
+  </g>
+
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal" text-anchor="middle">
+    <text id="v2-label" x="232" y="54">V2</text>
+    <text x="188" y="84">+</text>
+    <text x="276" y="84">−</text>
+    <text id="v3-label" x="488" y="54">V3</text>
+    <text x="444" y="84">+</text>
+    <text x="532" y="84">−</text>
+    <text id="v1-label" x="360" y="336">V1</text>
+    <text x="326" y="258">+</text>
+    <text x="394" y="258">−</text>
+  </g>
+</svg>
