@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">两个电容并联电路 / Two Capacitors in Parallel</title>
+  <desc id="desc">两条支路共用左右两个节点。第一支路由 Switch1 和 C1 串联组成，第二支路由 Switch2 和 C2 串联组成。干路上的总开关 Switch0 与电池组 Battery 串联。图中三个开关均处于断开状态。</desc>
+
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path id="rails" d="M96 112 V416 M624 112 V416"/>
+    <path id="branch-1-wires" d="M96 112 H128 M272 112 H368 M512 112 H624"/>
+    <path id="branch-2-wires" d="M96 264 H128 M272 264 H368 M512 264 H624"/>
+    <path id="main-wires" d="M96 416 H128 M272 416 H368 M512 416 H624"/>
+
+    <g id="switch-1" transform="translate(120 64)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+    <g id="switch-2" transform="translate(120 216)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+    <g id="switch-0" transform="translate(120 368)">
+      <path d="M8 48 H60 M100 48 H152 M60 48 L98 28"/>
+      <circle cx="60" cy="48" r="3" fill="#000000" stroke="none"/>
+      <circle cx="100" cy="48" r="3" fill="#000000" stroke="none"/>
+    </g>
+
+    <g id="capacitor-1" transform="translate(360 64)">
+      <path d="M8 48 H72 M72 28 V68 M88 28 V68 M88 48 H152"/>
+    </g>
+    <g id="capacitor-2" transform="translate(360 216)">
+      <path d="M8 48 H72 M72 28 V68 M88 28 V68 M88 48 H152"/>
+    </g>
+
+    <g id="battery" transform="translate(360 368)">
+      <path d="M8 48 H68 M68 28 V68 M76 38 V58 M84 28 V68 M92 38 V58 M92 48 H152"/>
+    </g>
+
+    <g id="junctions" fill="#000000" stroke="none">
+      <circle cx="96" cy="264" r="3"/>
+      <circle cx="624" cy="264" r="3"/>
+    </g>
+  </g>
+
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">
+    <text x="200" y="65">Switch1</text>
+    <text x="440" y="65">C1</text>
+    <text x="200" y="217">Switch2</text>
+    <text x="440" y="217">C2</text>
+    <text x="200" y="466">Switch0</text>
+    <text x="440" y="466">Battery</text>
+  </g>
+</svg>
