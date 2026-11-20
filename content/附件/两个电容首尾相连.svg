@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="156" viewBox="0 0 400 156" role="img" aria-labelledby="title desc">
+  <title id="title">两个电容组成的闭合回路</title>
+  <desc id="desc">电容 C1 和 C2 通过两段导线首尾相接，形成一个矩形闭合回路。</desc>
+
+  <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 68 H216 M360 68 H380 V136 H20 V68 H40"/>
+
+    <g id="capacitor-1" transform="translate(32 20)">
+      <path d="M8 48 H72 M72 28 V68 M88 28 V68 M88 48 H152"/>
+    </g>
+    <g id="capacitor-2" transform="translate(208 20)">
+      <path d="M8 48 H72 M72 28 V68 M88 28 V68 M88 48 H152"/>
+    </g>
+  </g>
+
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">
+    <text x="112" y="34">C1</text>
+    <text x="288" y="34">C2</text>
+  </g>
+</svg>
